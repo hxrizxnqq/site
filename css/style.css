@@ -1,0 +1,90 @@
+/* Main */
+
+.wrapper {
+    background: #ffffff;
+    width: 1200px;
+    height: 1319px;
+    margin: 0 auto;
+    box-shadow: 0 4px 4px #0000003F;
+    border-radius: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #e5e5e5;
+}
+
+.main-title {
+    margin: 0 0 0 14px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* Table bar */
+
+.table-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1d1c1d;
+    border-radius: 12px 12px 0 0;
+    padding: 4px 0 0 14px;
+}
+
+.nav-bar {
+    margin: 14px 20px 0 0;
+}
+
+.nav-bar-text {
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* About me */
+
+.about-me {
+    margin: 0 0 60px 0;
+}
+.my-name {
+    margin: 0 0 4px 0;
+}
+
+.my-profession {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.about-me-photo {
+    float: left;
+    margin: 0 22px 0 22px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #0000003F;
+}
+
+.about-me-text {
+    text-align: justify;
+    margin: 16px 22px 0 22px;
+    width: 1120px;
+}
+
+/* Skills */
+
+.skills-list {
+    list-style-type: none;
+}
+
+progress {
+    height: 25px;
+    width: 50%;
+    accent-color: #4a8307;
+}
+
+.progress-bar {
+    margin: 0 0 2px 0;
+}
+
+.progress-bar-title {
+    color: #595959;
+}
